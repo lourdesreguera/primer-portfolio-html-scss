@@ -1,0 +1,25 @@
+.b-header {
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
+}
+
+.b-first {
+    background-color: var(--bg);
+    p {
+        @media (max-width: 500px) {
+            margin-bottom: 4px;;
+        }
+    }
+    
+}
+
+.b-header__list {
+    list-style: none;
+    padding: 0;
+    text-align: end;
+    li {
+        margin-left: 10px;
+    }
+}
+

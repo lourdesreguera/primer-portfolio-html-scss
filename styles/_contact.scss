@@ -1,0 +1,24 @@
+.b-contact {
+    margin-top: 50px;
+    background-color: var(--bg);
+}
+
+.b-contact__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0;
+    li {
+        margin: 10px;
+    }
+    img {
+        width: 25px;
+        transition: width 0.25s ease-in-out;
+    }
+    
+}
+
+.b-contact__icon:hover {
+    width: 30px;
+}
